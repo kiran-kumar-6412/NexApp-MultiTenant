@@ -1,0 +1,706 @@
+2025-04-21 19:23:25,186-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:23:49,495-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:23:52,964-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:24:47,569-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:25:22,961-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:27:24,779-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:27:30,674-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:27:53,470-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:27:57,594-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:28:09,530-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:29:35,552-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:29:38,961-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:29:45,077-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:29:48,882-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:29:58,990-ERROR-User Create Error 'email'
+2025-04-21 19:29:58,992-ERROR-Database error: 500: Internal Server Error'email'
+2025-04-21 19:31:56,854-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:32:00,727-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:32:04,570-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:32:10,288-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:32:10,893-ERROR-User Create Error 'email'
+2025-04-21 19:32:10,893-ERROR-Database error: 500: Internal Server Error'email'
+2025-04-21 19:32:21,695-ERROR-User Create Error 'email'
+2025-04-21 19:32:21,696-ERROR-Database error: 500: Internal Server Error'email'
+2025-04-21 19:33:46,603-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:33:56,586-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:34:26,642-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:34:30,276-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:34:37,762-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:34:40,920-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:34:44,553-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:34:47,763-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:35:06,814-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:35:10,686-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:35:25,461-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:35:31,918-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:35:56,011-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:35:58,781-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:36:04,280-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:36:11,730-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:36:14,149-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:36:31,541-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:36:49,416-ERROR-User Create Error 'SetupUser' object has no attribute 'CreatedBy'
+2025-04-21 19:36:49,416-ERROR-Database error: 500: Internal Server Error'SetupUser' object has no attribute 'CreatedBy'
+2025-04-21 19:39:43,378-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:39:46,832-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:39:50,572-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:39:53,902-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:39:57,280-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:40:00,478-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:40:58,739-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:41:40,204-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:42:01,231-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:42:04,530-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:42:07,748-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:42:11,249-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:42:14,913-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:42:56,643-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:43:00,833-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:43:04,681-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:43:08,250-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:43:11,584-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:43:26,732-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:44:35,020-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:44:39,895-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:44:43,614-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:44:46,267-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:44:54,296-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:44:57,191-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:45:01,614-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:49:43,749-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:50:25,744-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:50:29,619-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:50:33,358-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:50:36,383-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:50:39,985-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:50:45,183-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:50:56,250-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:51:01,732-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:51:05,357-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:51:08,259-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:51:19,731-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:51:44,176-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 19:51:56,453-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 19:54:53,479-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:54:57,233-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:55:00,408-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:55:04,045-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:55:08,349-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:55:11,544-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:55:11,751-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 19:55:35,673-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:55:36,580-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 19:55:37,441-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 19:56:51,787-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:56:55,373-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:56:59,330-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:57:10,895-ERROR-\u2705 Database connected successfully!
+2025-04-21 19:57:11,066-ERROR-Error logging in: 'IsDeleted' is an invalid keyword argument for SetupUser
+2025-04-21 19:57:14,253-ERROR-Error logging in: 'IsDeleted' is an invalid keyword argument for SetupUser
+2025-04-21 20:00:16,454-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:00:28,509-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:00:32,235-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:00:35,557-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:00:59,910-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:01:06,713-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 20:01:09,326-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 20:01:32,346-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:01:34,812-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 20:01:42,588-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 20:05:39,987-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:05:43,733-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:05:46,702-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:05:52,946-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:05:57,144-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 20:05:58,034-ERROR-Error logging in: 'Id' is an invalid keyword argument for SetupUser
+2025-04-21 20:14:18,941-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:14:33,225-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:14:36,823-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:14:40,322-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:14:43,642-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:14:46,572-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:14:49,967-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:14:53,320-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:14:57,797-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:01,332-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:05,101-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:08,367-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:13,277-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:16,821-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:20,089-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:24,823-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:28,344-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:31,838-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:41,318-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:46,753-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:52,345-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:15:55,934-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:16:09,956-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:16:14,479-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:16:33,761-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:16:39,792-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:16:43,349-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:16:44,987-ERROR-Login error: 'Login' object has no attribute 'Username'
+2025-04-21 20:17:24,214-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:17:33,061-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:17:36,674-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:17:40,482-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:17:43,649-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:17:50,960-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:17:53,635-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:18:04,211-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:18:08,625-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:18:12,518-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:18:16,754-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:18:20,362-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:18:23,764-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:18:28,989-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:19:56,145-ERROR-Login error: 'SetupUser' object has no attribute 'password'
+2025-04-21 20:22:05,041-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:22:08,362-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:22:11,256-ERROR-Login error: 'SetupUser' object has no attribute 'Passwordassword'
+2025-04-21 20:22:13,732-ERROR-Login error: 'SetupUser' object has no attribute 'Passwordassword'
+2025-04-21 20:22:49,396-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:22:51,212-ERROR-Login error: 'SetupUser' object has no attribute 'isdeleted'
+2025-04-21 20:23:10,458-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:23:13,972-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:23:16,865-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:23:20,381-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:23:58,070-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:23:59,704-ERROR-Login error: 'SetupUser' object has no attribute 'username'
+2025-04-21 20:24:23,059-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:24:27,129-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:24:31,555-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:24:44,422-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:24:48,502-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:25:32,984-ERROR-User Create Error 'username'
+2025-04-21 20:25:32,985-ERROR-Database error: 500: Internal Server Error'username'
+2025-04-21 20:26:28,556-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:26:32,253-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:26:42,343-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:26:45,408-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:26:57,312-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:01,363-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:07,064-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:11,006-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:16,252-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:19,471-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:23,990-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:28,763-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:34,924-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:44,818-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:49,952-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:53,843-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:27:57,364-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:28:25,888-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:28:29,676-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:28:56,439-ERROR-Error creating user repository : 'Createdby' is an invalid keyword argument for SetupUser
+2025-04-21 20:31:06,065-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:31:53,201-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:31:58,800-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:32:01,870-ERROR-User Create Error Object of type datetime is not JSON serializable
+2025-04-21 20:32:01,873-ERROR-Database error: 500: Internal Server ErrorObject of type datetime is not JSON serializable
+2025-04-21 20:33:55,740-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:37:41,615-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:38:16,997-ERROR-\u2705 Database connected successfully!
+2025-04-21 20:38:53,240-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:40:01,101-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:41:13,472-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:41:48,645-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:45:29,454-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:45:32,665-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:45:35,500-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:45:37,362-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:45:40,464-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:45:55,926-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:46:00,033-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:46:00,749-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:46:19,874-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:46:25,255-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:46:25,657-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:46:26,417-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:46:41,275-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:46:42,338-ERROR-Database error: 'OAuth2PasswordRequestForm' object is not callable
+2025-04-23 13:46:44,533-ERROR-Database error: 'OAuth2PasswordRequestForm' object is not callable
+2025-04-23 13:46:53,927-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:47:02,098-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:47:03,143-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:47:04,339-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:47:31,361-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:47:33,844-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:47:36,577-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:47:37,374-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Username'
+2025-04-23 13:48:09,657-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:48:11,779-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:48:11,926-ERROR-Login error: 'str' object has no attribute 'Username'
+2025-04-23 13:48:15,493-ERROR-Login error: 'str' object has no attribute 'Username'
+2025-04-23 13:48:37,560-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:48:40,451-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:48:44,876-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:48:52,906-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:48:53,858-ERROR-Login error: 'str' object has no attribute 'Username'
+2025-04-23 13:49:02,669-ERROR-Login error: 'str' object has no attribute 'Username'
+2025-04-23 13:49:03,437-ERROR-Login error: 'str' object has no attribute 'Username'
+2025-04-23 13:49:19,892-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:49:20,111-ERROR-Login error: 'str' object has no attribute 'username'
+2025-04-23 13:49:23,010-ERROR-Login error: 'str' object has no attribute 'username'
+2025-04-23 13:49:53,785-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:49:59,704-ERROR-Login error: 'str' object has no attribute 'username'
+2025-04-23 13:50:00,537-ERROR-Login error: 'str' object has no attribute 'username'
+2025-04-23 13:50:15,046-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:50:16,779-ERROR-Login error: 'str' object has no attribute 'username'
+2025-04-23 13:50:17,491-ERROR-Login error: 'str' object has no attribute 'username'
+2025-04-23 13:50:57,529-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:50:59,379-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:50:59,523-ERROR-Database error: 'str' object has no attribute 'username'
+2025-04-23 13:51:37,836-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:51:41,551-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:51:42,561-ERROR-Login error: 'str' object has no attribute 'username'
+2025-04-23 13:51:43,643-ERROR-Login error: 'str' object has no attribute 'username'
+2025-04-23 13:52:10,996-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:52:13,915-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:52:14,129-ERROR-Login error: 'OAuth2PasswordRequestForm' object has no attribute 'Password'
+2025-04-23 13:52:40,102-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:53:01,843-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:53:09,666-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:53:12,593-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:54:07,959-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:54:12,308-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:54:52,435-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:55:00,793-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:55:42,573-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:55:44,846-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:55:56,150-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:56:02,234-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:56:04,344-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:56:51,199-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:19,800-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:22,141-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:29,940-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:32,337-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:38,290-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:40,890-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:42,769-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:47,403-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:50,962-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:53,582-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:57:55,760-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:58:03,440-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:58:32,288-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:59:30,476-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:59:33,120-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:59:47,437-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:59:50,747-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:59:53,284-ERROR-\u2705 Database connected successfully!
+2025-04-23 13:59:55,505-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:00:26,314-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:00:30,784-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:00:59,608-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:01:14,462-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:01:16,799-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:01:19,271-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:01:22,579-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:01:25,664-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:03:37,836-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:03:50,871-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:03:53,345-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:03:55,027-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:04:02,183-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:04:12,228-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:08:28,186-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:08:31,471-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:08:41,414-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:08:44,418-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:08:46,329-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:17,159-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:19,609-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:27,733-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:37,603-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:41,776-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:44,153-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:46,844-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:49,146-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:51,145-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:56,038-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:09:58,100-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:10:13,132-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:10:20,560-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:10:36,282-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:10:39,786-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:10:41,763-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:10:49,066-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:10:52,093-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:02,811-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:09,242-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:11,613-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:13,598-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:22,474-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:41,960-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:44,693-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:46,924-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:48,960-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:11:50,863-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:12:12,440-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:12:14,773-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:12:17,454-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:12:50,564-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:12:53,791-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:12:56,951-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:13:03,309-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:13:06,928-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:13:10,364-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:13:41,013-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:13:45,665-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:13:48,076-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:13:50,765-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:13:54,071-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:14:36,474-ERROR-User Create Error UserRepository.user_id() missing 1 required positional argument: 'db'
+2025-04-23 14:14:36,474-ERROR-Database error: 500: Internal Server ErrorUserRepository.user_id() missing 1 required positional argument: 'db'
+2025-04-23 14:14:56,302-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:15:05,393-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:15:07,862-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:15:14,872-ERROR-User Create Error (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': Username' at line 1")
+[SQL: SELECT * FROM setup_user WHERE Username =: Username]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-23 14:15:14,872-ERROR-Database error: 500: Internal Server Error(pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': Username' at line 1")
+[SQL: SELECT * FROM setup_user WHERE Username =: Username]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-23 14:16:42,898-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:16:53,903-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:16:55,938-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:17:09,989-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:17:14,139-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:17:17,214-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:17:19,334-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:17:35,115-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:17:40,381-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:18:01,733-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:18:03,466-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:18:32,302-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:18:40,631-ERROR-User Create Error (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'username'
+[SQL: SELECT * FROM setup_user WHERE Username = %(username)s]
+[parameters: [{'usename': 'kiran'}]]
+(Background on this error at: https://sqlalche.me/e/20/cd3x)
+2025-04-23 14:18:40,631-ERROR-Database error: 500: Internal Server Error(sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'username'
+[SQL: SELECT * FROM setup_user WHERE Username = %(username)s]
+[parameters: [{'usename': 'kiran'}]]
+(Background on this error at: https://sqlalche.me/e/20/cd3x)
+2025-04-23 14:18:43,547-ERROR-User Create Error (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'username'
+[SQL: SELECT * FROM setup_user WHERE Username = %(username)s]
+[parameters: [{'usename': 'kiran'}]]
+(Background on this error at: https://sqlalche.me/e/20/cd3x)
+2025-04-23 14:18:43,547-ERROR-Database error: 500: Internal Server Error(sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'username'
+[SQL: SELECT * FROM setup_user WHERE Username = %(username)s]
+[parameters: [{'usename': 'kiran'}]]
+(Background on this error at: https://sqlalche.me/e/20/cd3x)
+2025-04-23 14:20:29,985-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:21:37,962-ERROR-Update User: cannot access local variable 'user_id' where it is not associated with a value
+2025-04-23 14:21:37,962-ERROR-Database error: 'dict' object has no attribute 'Id'
+2025-04-23 14:23:39,825-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:23:43,278-ERROR-Update User: cannot access local variable 'user_id' where it is not associated with a value
+2025-04-23 14:23:43,278-ERROR-Database error: 'dict' object has no attribute 'Id'
+2025-04-23 14:23:45,911-ERROR-Update User: cannot access local variable 'user_id' where it is not associated with a value
+2025-04-23 14:23:45,912-ERROR-Database error: 'dict' object has no attribute 'Id'
+2025-04-23 14:26:11,601-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:26:33,123-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:26:36,392-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:26:42,428-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:26:48,354-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:26:56,162-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:27:01,316-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:27:16,988-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:27:19,087-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:27:31,076-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:27:44,319-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:27:49,998-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:30:32,063-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:31:10,551-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:33:42,597-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:33:45,205-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:34:30,791-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:34:42,762-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:34:45,269-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:34:48,118-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:34:55,197-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:35:17,435-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:35:22,315-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:35:24,565-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:35:26,845-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:35:40,738-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:35:57,894-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:36:04,853-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:36:08,072-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:36:10,281-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:36:17,130-ERROR-\u2705 Database connected successfully!
+2025-04-23 14:36:55,569-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:19:24,480-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:19:59,750-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:21:27,930-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:23:09,046-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:23:13,575-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:23:17,972-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:23:21,839-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:23:26,555-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:23:50,787-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:24:57,444-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:25:03,801-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:25:11,928-ERROR-Token ERROR Invalid Token
+2025-04-28 18:25:17,023-ERROR-Token ERROR Invalid Token
+2025-04-28 18:25:51,228-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:26:17,405-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:26:44,845-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:26:57,529-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:27:04,483-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:27:12,330-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:29:17,650-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:29:36,806-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:29:57,193-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:31:42,883-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:31:46,372-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:31:51,652-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:31:54,453-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:32:13,869-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:32:17,308-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:34:07,895-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:34:32,176-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:36:09,088-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:36:13,384-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:36:20,255-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:36:24,825-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:36:29,787-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:36:30,261-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:36:40,944-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:37:10,786-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:37:11,222-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:37:25,298-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:37:43,600-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:37:44,105-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:37:57,119-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:38:48,257-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:38:52,657-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:38:57,642-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:39:02,666-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:40:24,047-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:40:27,985-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:40:28,702-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:40:30,776-ERROR-Error logging in: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:41:08,343-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:41:41,762-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:41:45,362-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:41:54,228-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:41:59,105-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:42:03,529-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:42:04,316-ERROR-loging Error : 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:42:05,112-ERROR-loging Error : 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:43:33,423-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:44:43,192-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:44:43,568-ERROR-loging Error : 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:44:58,842-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:44:59,356-ERROR-Login Error: 'username' is an invalid keyword argument for SetupUser
+2025-04-28 18:47:10,588-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:47:42,179-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:47:47,271-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:48:40,039-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:49:17,203-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:49:21,712-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:49:26,350-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:50:10,752-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:50:42,611-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:50:46,386-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:50:58,545-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:51:03,429-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:51:07,493-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:51:12,766-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:51:47,425-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:52:18,761-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:53:47,619-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:53:51,136-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:54:18,889-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:54:51,443-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:54:55,431-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:56:34,786-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:56:38,382-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:56:46,488-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:56:50,305-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:56:56,275-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:57:03,532-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:57:06,763-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:57:30,496-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:57:40,618-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:58:20,140-ERROR-Error fetching all users: UserRepository.all_users() missing 1 required positional argument: 'db'
+2025-04-28 18:58:24,870-ERROR-Error fetching all users: UserRepository.all_users() missing 1 required positional argument: 'db'
+2025-04-28 18:58:54,518-ERROR-\u2705 Database connected successfully!
+2025-04-28 18:58:55,092-ERROR-Error getting all users: 'Depends' object has no attribute 'execute'
+2025-04-28 18:58:57,787-ERROR-Error getting all users: 'Depends' object has no attribute 'execute'
+2025-04-28 19:00:07,507-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:00:10,618-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:00:17,378-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:00:21,448-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:00:26,758-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:00:30,410-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:00:34,659-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:00:40,158-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:00:50,732-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:01:22,141-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:01:25,667-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:03:22,168-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:03:25,046-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:03:28,771-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:04:02,360-ERROR-Error creating tenant: (pymysql.err.IntegrityError) (1062, "Duplicate entry '1122' for key 'setup_tenant.TenantId'")
+[SQL:  
+                INSERT INTO setup_tenant (
+                    TenantId, ServerName, DatabaseName, ServerUsername, ServerPassword,
+                    CreatedBy, CreatedOn
+                ) VALUES (
+                    %(TenantId)s, %(ServerName)s, %(DatabaseName)s, %(ServerUsername)s, %(ServerPassword)s,
+                    %(CreatedBy)s, %(CreatedOn)s
+                )
+            ]
+[parameters: {'TenantId': '1122', 'ServerName': 'localhost', 'DatabaseName': 'stFb', 'ServerUsername': 'string', 'ServerPassword': 'string', 'CreatedBy': 1, 'CreatedOn': datetime.datetime(2025, 4, 28, 13, 34, 2, 360835)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-04-28 19:06:34,153-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:06:41,694-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:07:11,623-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:07:15,881-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:07:20,819-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:07:24,537-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:07:28,051-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:07:31,671-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:07:35,973-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:07:36,326-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:07:57,494-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:08:01,415-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:08:01,897-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:08:18,447-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:08:58,551-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:09:02,416-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:09:02,879-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:09:10,697-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:09:29,592-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:09:34,121-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:09:50,103-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:09:53,316-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:10:15,160-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:10:19,065-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:10:23,765-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:10:25,877-ERROR-Error fetching all tenants: tuple indices must be integers or slices, not str
+2025-04-28 19:10:36,109-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:10:39,863-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:10:59,006-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:11:10,417-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:11:13,862-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:11:21,255-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:11:26,704-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:11:39,805-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:12:17,718-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:12:24,128-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:12:28,133-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:12:38,661-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:12:42,753-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:12:43,147-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and IsDeleted==False' at line 1")
+[SQL: SELECT * FROM setup_tenant and IsDeleted==False]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:12:46,225-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and IsDeleted==False' at line 1")
+[SQL: SELECT * FROM setup_tenant and IsDeleted==False]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:13:02,699-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:13:03,117-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and IsDeleted=0' at line 1")
+[SQL: SELECT * FROM setup_tenant and IsDeleted=0]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:13:06,073-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and IsDeleted=0' at line 1")
+[SQL: SELECT * FROM setup_tenant and IsDeleted=0]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:13:29,703-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:13:34,144-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:13:34,607-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND IsDeleted = 0' at line 1")
+[SQL: SELECT * FROM setup_tenant  AND IsDeleted = 0]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:15:48,586-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:15:52,352-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:16:08,467-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:16:13,718-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:19:34,883-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:19:38,170-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:20:05,142-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:20:32,407-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:20:36,413-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:20:41,120-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:20:44,833-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:20:54,613-ERROR-Error creating tenant: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':IsDeleted\n                )' at line 6")
+[SQL:  
+                INSERT INTO setup_tenant (
+                    TenantId, ServerName, DatabaseName, ServerUsername, ServerPassword,
+                    CreatedBy, CreatedOn,IsDeleted
+                ) VALUES (
+                    %(TenantId)s, %(ServerName)s, %(DatabaseName)s, %(ServerUsername)s, %(ServerPassword)s,
+                    %(CreatedBy)s, %(CreatedOn)s,IsDeleted:IsDeleted
+                )
+            ]
+[parameters: {'TenantId': '112244', 'ServerName': 'string', 'DatabaseName': 'string', 'ServerUsername': 'string', 'ServerPassword': 'string', 'CreatedBy': 1, 'CreatedOn': datetime.datetime(2025, 4, 28, 13, 50, 54, 610477)}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:21:00,238-ERROR-Error creating tenant: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':IsDeleted\n                )' at line 6")
+[SQL:  
+                INSERT INTO setup_tenant (
+                    TenantId, ServerName, DatabaseName, ServerUsername, ServerPassword,
+                    CreatedBy, CreatedOn,IsDeleted
+                ) VALUES (
+                    %(TenantId)s, %(ServerName)s, %(DatabaseName)s, %(ServerUsername)s, %(ServerPassword)s,
+                    %(CreatedBy)s, %(CreatedOn)s,IsDeleted:IsDeleted
+                )
+            ]
+[parameters: {'TenantId': '112244', 'ServerName': 'string', 'DatabaseName': 'string', 'ServerUsername': 'string', 'ServerPassword': 'string', 'CreatedBy': 1, 'CreatedOn': datetime.datetime(2025, 4, 28, 13, 51, 0, 238194)}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:21:53,971-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:22:05,778-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:22:34,201-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:22:59,783-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND IsDeleted = 0' at line 1")
+[SQL: SELECT * FROM setup_tenant  AND IsDeleted = 0]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:23:02,622-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND IsDeleted = 0' at line 1")
+[SQL: SELECT * FROM setup_tenant  AND IsDeleted = 0]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:23:21,313-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:23:33,472-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:23:39,192-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:23:39,844-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND IsDeleted = False' at line 1")
+[SQL: SELECT * FROM setup_tenant  AND IsDeleted = False ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:24:10,284-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:24:14,385-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:24:14,772-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND IsDeleted = 0' at line 1")
+[SQL: SELECT * FROM setup_tenant  AND IsDeleted = 0 ]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:24:39,969-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:24:40,787-ERROR-Error fetching all tenants: (pymysql.err.ProgrammingError) (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND IsDeleted = 0' at line 1")
+[SQL: SELECT * FROM setup_tenant  AND IsDeleted = 0]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-04-28 19:25:32,594-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:25:36,138-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:26:00,863-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:26:04,525-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:26:13,488-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:26:46,411-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:26:53,003-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:26:58,534-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:27:08,583-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:27:19,079-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:27:22,722-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:27:26,904-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:29:08,905-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:30:15,869-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:30:19,649-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:32:12,291-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:32:18,949-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:32:22,921-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:32:52,878-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:33:01,291-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:35:26,753-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:35:29,997-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:35:39,287-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:35:43,612-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:35:49,851-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:35:53,488-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:35:59,882-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:36:03,611-ERROR-\u2705 Database connected successfully!
+2025-04-28 19:36:07,550-ERROR-\u2705 Database connected successfully!
