@@ -1,6 +1,5 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from src.utils import logger
 from src.config.config import settings  # Importing Pydantic settings
 
 
@@ -17,9 +16,9 @@ try:
 
     # Create session factory
     local_session = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-    
-    logger.logging_error("✅ Database connected successfully!")  # Log successful connection
+
 except Exception as e:
+    from src.utils import logger
     logger.logging_error("Database Error", f"Database Connection Error: {str(e)}") # Log error
     
    

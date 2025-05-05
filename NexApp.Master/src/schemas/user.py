@@ -29,6 +29,7 @@ class TokenData(BaseModel):
 
 class User_update(BaseModel):
     Username: Optional[str]
+    IsDeleted: bool=False
    
   
 

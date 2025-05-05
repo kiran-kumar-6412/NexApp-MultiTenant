@@ -104,11 +104,7 @@ class UserRepository:
         except IntegrityError as e:
             db.rollback()
             if "Duplicate entry" in str(e.orig):
-                return {
-                    "data": None,
-                    "status": False,
-                    "message": "Username already taken. Please use a different one."
-                }
+                return ValueError("Username already taken. Please use a different one.")
         except Exception as e:
             db.rollback()
             logger.logging_error(f"Update User: {str(e)}")

@@ -1,4 +1,4 @@
-from fastapi import APIRouter,Depends
+from fastapi import APIRouter,Depends,Response
 from src.dependencies import get_db
 from sqlalchemy.orm import Session
 from src.schemas.user import Setup_User,Login,UserActionSchema
@@ -14,8 +14,8 @@ route=APIRouter()
 #     return user_services.user_create(user,db)
 
 @route.post("/login")
-def login(form_data:OAuth2PasswordRequestForm=Depends(),db:Session=Depends(get_db)):
-    return user_services.login(form_data,db)
+def login(form_data:Login,response:Response,db:Session=Depends(get_db)):
+    return user_services.login(form_data,response,db)
 
 
 @route.get("/all")

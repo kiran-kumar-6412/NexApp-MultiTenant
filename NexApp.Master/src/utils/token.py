@@ -1,11 +1,9 @@
 import jwt
 from datetime import timedelta,datetime
 from src.config.config import settings
-from src.utils import logger
 from jwt.exceptions import ExpiredSignatureError,InvalidTokenError
-from fastapi import HTTPException,status,Depends
+from fastapi import HTTPException,status,Depends,Request
 from src.schemas.user import TokenData
-from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 
 
@@ -23,11 +21,12 @@ def create_token(data:dict):
         access_token=jwt.encode(to_encode,SECRETE_KEY,algorithm=ALGORITHM)
         return (access_token)
     except Exception as e:
+        from src.utils import logger
         logger.logging_error(f"Token Create Error {str(e)}")
 
-oauth2_schemes = OAuth2PasswordBearer(tokenUrl="/masters/login")
 
-def verify_token(token:str=Depends(oauth2_schemes)):
+def verify_token(request:Request):
+    token=request.cookies.get("access_token")
     try:
         payload = jwt.decode(token, SECRETE_KEY, algorithms=[ALGORITHM])
         username: str = payload.get("sub")
@@ -36,12 +35,14 @@ def verify_token(token:str=Depends(oauth2_schemes)):
         return TokenData(username=username) # Successfully authenticated
 
     except ExpiredSignatureError:
+        from src.utils import logger
         logger.logging_error("Token Expired")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED, detail="Session Expired, please log in again"
         )
 
     except InvalidTokenError:
+        from src.utils import logger
         logger.logging_error("Token ERROR Invalid Token")
         # return {    
         #         "data": None,
