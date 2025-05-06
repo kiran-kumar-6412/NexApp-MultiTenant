@@ -11,3 +11,4 @@ pyJWT
 cryptography
 python-multipart
 bcrypt==3.2.0
+pyyaml

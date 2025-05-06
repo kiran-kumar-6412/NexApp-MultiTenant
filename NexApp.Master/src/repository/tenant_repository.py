@@ -88,11 +88,8 @@ class TenantRepository:
             result = db.execute(text(TenantSql.Get_Teant_By_TenantId), {"TenantId": tenant_id})
             tenant = result.fetchone()
             if not tenant:
-                return {
-                    "data": None,
-                    "status": False,
-                    "message": f"Tenant with ID {tenant_id} not found in the database"
-                }
+                return None 
+            
 
             # 2. Soft delete the tenant (set IsDeleted = True)
             db.execute(text(TenantSql.TenantSoftDelete), {
@@ -104,16 +101,9 @@ class TenantRepository:
             db.commit()
 
             # 3. Return success message after deletion
-            return {
-                "data": True,
-                "status": True,
-                "message": f"Tenant with ID {tenant_id} has been successfully deleted"
-            }
+            return True
+        
         except Exception as e:
             db.rollback()
             logger.logging_error(f"Delete Tenant: {str(e)}")
-            return {
-                "data": None,
-                "status": False,
-                "message": "An error occurred while deleting the tenant"
-            }
+           

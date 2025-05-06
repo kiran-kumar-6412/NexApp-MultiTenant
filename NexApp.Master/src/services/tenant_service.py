@@ -4,7 +4,7 @@ from src.schemas.tenant_schema import TenantCreate, TenantUpdate
 from src.repository.master_repository import UserRepository
 from datetime import datetime
 from fastapi.encoders import jsonable_encoder
-from src.utils import logger  # Assuming you have a logger utility
+from src.utils import logger,Retun_Response
 
 class TenantService:
 
@@ -23,24 +23,15 @@ class TenantService:
                             "UpdatedBy": tenant_data.UpdatedBy,
                             "UpdatedOn": tenant_data.UpdatedOn} for tenant_data in tenant]
                 
-                return {"data": jsonable_encoder(tenants),
-                        "status": True,
-                        "message": "All tenant details"}
+                return Retun_Response.success_response(data=jsonable_encoder(tenants),message="All tenant details fetched sucessfully")
+            
             else:
                 # If no tenants are found, return an appropriate response
-                return {
-                    "data": None,
-                    "status": False,
-                    "message": "No tenants found"
-                }
+                return Retun_Response.error_response("No tenants found")
         except Exception as e:
             # Log any errors that occur during the process
             logger.logging_error(f"Error fetching all tenants: {str(e)}")
-            return {
-                "data": None,
-                "status": False,
-                "message": "Error fetching tenant details"
-            }
+            
 
     @staticmethod
     def create(tenant_data, session_username, db: Session):
@@ -60,25 +51,13 @@ class TenantService:
                     "CreatedBy": created_tenant.CreatedBy,
                     "CreatedOn": created_tenant.CreatedOn
                 }
-                return {
-                    "data": jsonable_encoder(tenant_dict),
-                    "status": True,
-                    "message": "Tenant created successfully!"
-                }
+                return Retun_Response.success_response(data=jsonable_encoder(tenant_dict),message="Tenant created successfully!")
+               
 
-            return {
-                "data": None,
-                "status": False,
-                "message": "Tenant creation failed"
-            }
+            return Retun_Response.error_response("Tenant creation failed")
         except Exception as e:
-            # Log any errors that occur during the process
             logger.logging_error(f"Error creating tenant: {str(e)}")
-            return {
-                "data": None,
-                "status": False,
-                "message": "Error creating tenant"
-            }
+            
 
     @staticmethod
     def update(tenant_id, tenant_data: TenantUpdate, session_username: str, db: Session):
@@ -90,11 +69,7 @@ class TenantService:
             tenant_update = TenantRepository.update(db, tenant_id, tenant_data, session_username, updated_by, current_time)
             
             if not tenant_update:
-                return {
-                    "data": None,
-                    "status": False,
-                    "message": f"Tenant not found"
-                }
+                return Retun_Response.error_response("Tenant not found")
             
             tenant_dict = {
                 "ServerName": tenant_update.ServerName,
@@ -105,31 +80,27 @@ class TenantService:
                 "UpdatedOn": tenant_update.UpdatedOn
             }
             
-            return {
-                "data": jsonable_encoder(tenant_dict),
-                "status": True,
-                "message": "Tenant updated successfully"
-            }
+            return Retun_Response.success_response(data=jsonable_encoder(tenant_dict),message="Tenant updated successfully") 
+            
         except Exception as e:
             # Log any errors that occur during the process
             logger.logging_error(f"Error updating tenant: {str(e)}")
-            return {
-                "data": None,
-                "status": False,
-                "message": "Error updating tenant"
-            }
+           
 
     @staticmethod
     def delete(tenant_id: int,session_username, db: Session):
         try:
             updated_by = UserRepository.get_user_id_by_username(session_username, db)
             current_time = datetime.utcnow()
-            return TenantRepository.delete(tenant_id, db,updated_by,current_time)
+            tenant= TenantRepository.delete(tenant_id, db,updated_by,current_time)
+            if not tenant:
+                return Retun_Response.error_response(f"Tenant with ID {tenant_id} not found in the database")
+                
+            else:
+                return Retun_Response.success_response(data=None,message=f"Tenant with ID {tenant_id} has been successfully deleted")
+
+
         except Exception as e:
             # Log any errors that occur during the process
             logger.logging_error(f"Error deleting tenant with ID {tenant_id}: {str(e)}")
-            return {
-                "data": None,
-                "status": False,
-                "message": "Error deleting tenant"
-            }
+            return Retun_Response.error_response("Error deleting tenant")

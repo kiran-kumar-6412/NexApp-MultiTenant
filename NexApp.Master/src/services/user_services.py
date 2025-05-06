@@ -31,7 +31,6 @@ def user_create(user,session_user,db):
         if created_user:
             user_dict = {
                 "id": created_user.Id,
-                "isdeleted": created_user.IsDeleted,
                 "username": created_user.Username,
                 "CreatedBy": created_user.CreatedBy,
                 "CreatedOn": created_user.CreatedOn
@@ -44,8 +43,8 @@ def user_create(user,session_user,db):
         logger.logging_error(f"User Create Error {str(e)}")
         raise HTTPException(status_code=500, detail=f"Internal Server Error{str(e)}")
     
-
-def login(user,response,db):
+from fastapi import Response
+def login(user,response:Response,db):
     try:
         username = user.Username
         password = user.Password
@@ -61,6 +60,7 @@ def login(user,response,db):
             return Retun_Response.error_response("User is not active")
         
         access_token = create_token({"sub": user_record.Username})
+        
         response.set_cookie(
             key="access_token",
             value=access_token,
@@ -105,7 +105,7 @@ def get_all_users(current_user,db: Session):
             else:
                 # If no users are found, return an appropriate response
                 return Retun_Response.error_response(message="No users found",status_code=status.HTTP_404_NOT_FOUND)
-        return Retun_Response.error_response("You are not authorized to see users list")
+        return Retun_Response.error_response("You are not authorized to see users list",status_code=status.HTTP_401_UNAUTHORIZED)
 
     except Exception as e:
             # Log any errors that occur during the process
@@ -116,34 +116,45 @@ def get_all_users(current_user,db: Session):
 
 def update_user(id, schema_user, session_username, db):
     # Only allow master user to perform updates
-    if session_username == "kiran":
-        try:
-            user = UserRepository.update_user(id, schema_user, session_username, db)
-            if not user:
-                return Retun_Response.error_response(f"User with ID {id} not found",status_code=status.HTTP_404_NOT_FOUND)
+    if session_username != "kiran":
+        return Retun_Response.error_response(
+            "You are not authorized to update this user",
+            status_code=status.HTTP_401_UNAUTHORIZED
+        )
 
-            # If the repository returns a dict, it's an error message
-            if isinstance(user, dict):
-                return user
-            # Prepare user response
-        
-            users_list = [
-                {
-                    "id": user.Id,
-                    "isdeleted": user.IsDeleted,
-                    "username": user.Username,
-                    "updatedon": user.UpdatedOn,
-                    "updatedby": user.UpdatedBy
-                }
-            ]
+    try:
+        user = UserRepository.update_user(id, schema_user, session_username, db)
 
-            return Retun_Response.success_response(data=jsonable_encoder(users_list),message="User updated successfully")
-        except ValueError as e:
-            return Retun_Response.error_response(str(e))
+        if user is None:
+            return Retun_Response.error_response(
+                f"User with ID {id} not found",
+                status_code=status.HTTP_404_NOT_FOUND
+            )
 
-    # Unauthorized update attempt
-    return Retun_Response.error_response("You are not authorized to update this user",status_code=status.HTTP_401_UNAUTHORIZED)
+        if isinstance(user, ValueError):
+            return Retun_Response.error_response(
+                str(user),
+                status_code=status.HTTP_409_CONFLICT  # Conflict for duplicate username
+            )
 
+        # Prepare user response
+        user_response = {
+            "id": user.Id,
+            "username": user.Username,
+            "updatedon": user.UpdatedOn,
+            "updatedby": user.UpdatedBy
+        }
+
+        return Retun_Response.success_response(
+            data=jsonable_encoder([user_response]),
+            message="User updated successfully"
+        )
+
+    except Exception as e:
+        return Retun_Response.error_response(
+            f"An unexpected error occurred: {str(e)}",
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR
+        )
 
 
 
@@ -181,12 +192,37 @@ def current_user(token_data: TokenData = Depends(verify_token)):
        
 
 
-def user_delete(id,session_username,db):
+def user_delete(id, session_username, db):
     try:
-        if session_username=="kiran":               # only master user can delete the user details
-            return UserRepository.user_delete(id,session_username,db)
-        
-        
-        return Retun_Response.error_response(message="You are not authorized to delete this user",status_code=status.HTTP_401_UNAUTHORIZED)
+        # Only 'kiran' can delete users
+        if session_username != "kiran":
+            return Retun_Response.error_response(
+                message="You are not authorized to delete this user",
+                status_code=status.HTTP_401_UNAUTHORIZED
+            )
+
+        user_deleted = UserRepository.user_delete(id, session_username, db)
+
+        if user_deleted is None:
+            return Retun_Response.error_response(
+                f"User with ID {id} not found in the database",
+                status_code=status.HTTP_404_NOT_FOUND
+            )
+
+        elif user_deleted is False:
+            return Retun_Response.error_response(
+                "An error occurred while deleting the user",
+                status_code=status.HTTP_500_INTERNAL_SERVER_ERROR
+            )
+
+        return Retun_Response.success_response(
+            data=None,
+            message=f"User with ID {id} has been successfully deleted"
+        )
+
     except Exception as e:
-        logger.logging_error(f"user delete Error {str(e)}")
+        logger.logging_error(f"user_delete Error: {str(e)}")
+        return Retun_Response.error_response(
+            "Unexpected error occurred",
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR
+        )

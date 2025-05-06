@@ -1,0 +1,49 @@
+user:
+  GetUsername: "SELECT * FROM setup_user WHERE Username = :username AND IsDeleted = 0"
+  GetAllUsers: "SELECT * FROM setup_user WHERE IsDeleted = 0"
+  GetUseridfromUsername: "SELECT Id FROM setup_user WHERE Username = :username AND IsDeleted = 0"
+  GetUserById: "SELECT * FROM setup_user WHERE Id = :id AND IsDeleted = 0"
+  CheckUsername: >
+    SELECT * FROM setup_user 
+    WHERE Username = :Username
+    AND IsDeleted = 0   
+  UpdateUser: >
+    UPDATE setup_user 
+    SET Username = :Username,
+        UpdatedBy = :UpdatedBy,
+        UpdatedOn = :UpdatedOn
+    WHERE Id = :id
+  SoftDeleteUser: >
+    UPDATE setup_user 
+    SET IsDeleted = :IsDeleted,
+        UpdatedBy = :UpdatedBy,
+        UpdatedOn = :UpdatedOn
+    WHERE Id = :id
+
+tenant:
+  GetAllTenants: "SELECT * FROM setup_tenant WHERE IsDeleted = 0"
+  GetTenantById: "SELECT * FROM setup_tenant WHERE Id = :id AND IsDeleted = 0"
+  CreateTenant: >
+    INSERT INTO setup_tenant (
+        TenantId, ServerName, DatabaseName, ServerUsername, ServerPassword,
+        CreatedBy, CreatedOn, IsDeleted
+    ) VALUES (
+        :TenantId, :ServerName, :DatabaseName, :ServerUsername, :ServerPassword,
+        :CreatedBy, :CreatedOn, :IsDeleted
+    )
+  GetTenantByTenantId: "SELECT * FROM setup_tenant WHERE TenantId = :TenantId AND IsDeleted = 0"
+  UpdateTenant: >
+    UPDATE setup_tenant 
+    SET ServerName = :ServerName,
+        DatabaseName = :DatabaseName,
+        ServerUsername = :ServerUsername,
+        ServerPassword = :ServerPassword,
+        UpdatedBy = :UpdatedBy,
+        UpdatedOn = :UpdatedOn
+    WHERE TenantId = :TenantId
+  TenantSoftDelete: >
+    UPDATE setup_tenant
+    SET IsDeleted = :IsDeleted,
+        UpdatedBy = :UpdatedBy,
+        UpdatedOn = :UpdatedOn
+    WHERE TenantId = :TenantId

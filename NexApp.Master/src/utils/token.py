@@ -5,6 +5,7 @@ from jwt.exceptions import ExpiredSignatureError,InvalidTokenError
 from fastapi import HTTPException,status,Depends,Request
 from src.schemas.user import TokenData
 from sqlalchemy.orm import Session
+from src.utils import Retun_Response
 
 
 
@@ -27,29 +28,32 @@ def create_token(data:dict):
 
 def verify_token(request:Request):
     token=request.cookies.get("access_token")
+    if not token:
+        raise HTTPException(status_code=401, detail="Access token missing Please login again")
+
     try:
         payload = jwt.decode(token, SECRETE_KEY, algorithms=[ALGORITHM])
         username: str = payload.get("sub")
+        
         if username is None:
-            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
+            raise HTTPException(
+                status_code=401,
+                detail="Invalid token payload"
+            )
         return TokenData(username=username) # Successfully authenticated
 
     except ExpiredSignatureError:
         from src.utils import logger
         logger.logging_error("Token Expired")
         raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED, detail="Session Expired, please log in again"
+            status_code=401,
+            detail="Session expired. Please log in again."
         )
 
     except InvalidTokenError:
         from src.utils import logger
         logger.logging_error("Token ERROR Invalid Token")
-        # return {    
-        #         "data": None,
-        #         "status": False,
-        #         "message": "Invalid Token"
-        #     }
-    #     #raise 
         raise HTTPException(
-            status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token"
+            status_code=401,
+            detail="Invalid token"
         )

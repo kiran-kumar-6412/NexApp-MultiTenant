@@ -22,13 +22,7 @@ class TenantUpdate(BaseModel):
     # UpdatedBy will be set from the token in the backend
     pass
 
-# class TenantOut(TenantBase):
-#     Id: int
-#     CreatedBy: Optional[int]
-#     CreatedOn: Optional[datetime]
-#     UpdatedBy: Optional[int]
-#     UpdatedOn: Optional[datetime]
-#     IsDeleted: bool
+
 
     class Config:
         orm_mode = True
