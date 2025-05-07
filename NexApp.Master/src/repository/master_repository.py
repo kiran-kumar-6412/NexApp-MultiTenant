@@ -5,6 +5,7 @@ from sqlalchemy import text
 from src.utils import logger
 from datetime import datetime
 from src.utils.query_loader import Queries
+from src.schemas.user import Setup_User
 
 
 class UserRepository:
@@ -20,14 +21,28 @@ class UserRepository:
     @staticmethod
     def create_user(user: dict, db: Session):
         try:
-            user_obj = SetupUser(**user)
-            db.add(user_obj)
+            sql = Queries["user"]["CreateUser"]
+            db.execute(text(sql), {
+                "Username": user["Username"],
+                "Password": user["Password"],
+                "CreatedBy": user["CreatedBy"],
+                "CreatedOn": user["CreatedOn"],
+                "UpdatedBy": user.get("UpdatedBy", None),
+                "UpdatedOn": user.get("UpdatedOn", None),
+                "IsDeleted": user.get("IsDeleted", 0)
+            })
             db.commit()
-            db.refresh(user_obj)
-            return user_obj
+
+            # Fetch newly created user to return (if needed)
+            get_sql = Queries["user"]["GetUsername"]
+            result = db.execute(text(get_sql), {"username": user["Username"]}).first()
+            return SetupUser(**result._mapping) if result else None
+
         except Exception as e:
             db.rollback()
             logger.logging_error(f"Error creating user: {str(e)}")
+            return None
+
 
     @staticmethod
     def login(username: str, db: Session):
@@ -63,15 +78,6 @@ class UserRepository:
             
             if not user:
                 return None
-
-            # Optional: Check if username already exists
-            sql_check_username = Queries["user"]["CheckUsername"]
-            result = db.execute(text(sql_check_username), {
-                "Username": schema_user.Username,
-                "id": id
-            })
-            if result.fetchone():
-                return ValueError("Username already taken. Please use a different one.")
 
             updated_by = UserRepository.get_user_id_by_username(session_username, db)
             current_time = datetime.utcnow()

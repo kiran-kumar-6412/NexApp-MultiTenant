@@ -1,8 +1,5 @@
-2025-05-06 20:24:47,843-ERROR-Delete User: (sqlalchemy.exc.InvalidRequestError) A value is required for bind parameter 'True'
-[SQL: UPDATE setup_user  SET IsDeleted = %(True)s,
-    UpdatedBy = %(UpdatedBy)s,
-    UpdatedOn = %(UpdatedOn)s
-WHERE Id = %(id)s
-]
-[parameters: [{'UpdatedBy': 1, 'UpdatedOn': datetime.datetime(2025, 5, 6, 14, 54, 47, 841817), 'IsDeleted': True, 'id': 7}]]
-(Background on this error at: https://sqlalche.me/e/20/cd3x)
+2025-05-07 20:03:52,787-ERROR-Error updating tenant: 'Update_Tenant'
+2025-05-07 20:08:55,956-ERROR-Error updating tenant: 'Update_Tenant'
+2025-05-07 20:08:59,058-ERROR-Error updating tenant: 'Update_Tenant'
+2025-05-07 20:10:24,338-ERROR-Error creating tenant: TenantRepository.check_tenant_id() missing 1 required positional argument: 'db'
+2025-05-07 20:10:28,300-ERROR-Error creating tenant: TenantRepository.check_tenant_id() missing 1 required positional argument: 'db'

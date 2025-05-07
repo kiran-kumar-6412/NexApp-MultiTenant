@@ -1,5 +1,5 @@
 user:
-  GetUsername: "SELECT * FROM setup_user WHERE Username = :username AND IsDeleted = 0"
+  GetUsername: "SELECT * FROM setup_user WHERE Username = :username"
   GetAllUsers: "SELECT * FROM setup_user WHERE IsDeleted = 0"
   GetUseridfromUsername: "SELECT Id FROM setup_user WHERE Username = :username AND IsDeleted = 0"
   GetUserById: "SELECT * FROM setup_user WHERE Id = :id AND IsDeleted = 0"
@@ -19,8 +19,16 @@ user:
         UpdatedBy = :UpdatedBy,
         UpdatedOn = :UpdatedOn
     WHERE Id = :id
+  CreateUser: > 
+    INSERT INTO setup_user (
+    Username,Password,CreatedBy,CreatedOn,UpdatedBy,UpdatedOn,IsDeleted
+    ) VALUES (:Username,:Password,:CreatedBy,:CreatedOn,:UpdatedBy,
+    :UpdatedOn,:IsDeleted
+    )
+
 
 tenant:
+  GetTenant: "SELECT * FROM setup_tenant WHERE Id = :id"
   GetAllTenants: "SELECT * FROM setup_tenant WHERE IsDeleted = 0"
   GetTenantById: "SELECT * FROM setup_tenant WHERE Id = :id AND IsDeleted = 0"
   CreateTenant: >

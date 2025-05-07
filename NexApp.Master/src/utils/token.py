@@ -29,7 +29,7 @@ def create_token(data:dict):
 def verify_token(request:Request):
     token=request.cookies.get("access_token")
     if not token:
-        raise HTTPException(status_code=401, detail="Access token missing Please login again")
+        raise HTTPException(status_code=401, detail="Unauthorized Acess Please login")
 
     try:
         payload = jwt.decode(token, SECRETE_KEY, algorithms=[ALGORITHM])

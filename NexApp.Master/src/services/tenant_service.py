@@ -34,8 +34,11 @@ class TenantService:
             
 
     @staticmethod
-    def create(tenant_data, session_username, db: Session):
+    def create(tenant_data:TenantCreate, session_username, db: Session):
         try:
+            verify=TenantRepository.check_tenant_id(tenant_data.TenantId,db)
+            if verify["tenant_exists"]:
+                return Retun_Response.error_response("TenantId must be Unique")
             created_by = UserRepository.get_user_id_by_username(session_username, db)
             current_time = datetime.utcnow()
 
@@ -60,17 +63,23 @@ class TenantService:
             
 
     @staticmethod
-    def update(tenant_id, tenant_data: TenantUpdate, session_username: str, db: Session):
+    def update(tenant_id: int, tenant_data: TenantUpdate, session_username: str, db: Session):
         try:
             updated_by = UserRepository.get_user_id_by_username(session_username, db)
             current_time = datetime.utcnow()
 
-            # Call repository function with everything it needs
-            tenant_update = TenantRepository.update(db, tenant_id, tenant_data, session_username, updated_by, current_time)
-            
+            tenant_update = TenantRepository.update(
+                db=db,
+                tenant_id=tenant_id,
+                tenant_data=tenant_data,
+                session_username=session_username,
+                updated_by=updated_by,
+                current_time=current_time
+            )
+
             if not tenant_update:
                 return Retun_Response.error_response("Tenant not found")
-            
+
             tenant_dict = {
                 "ServerName": tenant_update.ServerName,
                 "DatabaseName": tenant_update.DatabaseName,
@@ -79,13 +88,16 @@ class TenantService:
                 "UpdatedBy": tenant_update.UpdatedBy,
                 "UpdatedOn": tenant_update.UpdatedOn
             }
-            
-            return Retun_Response.success_response(data=jsonable_encoder(tenant_dict),message="Tenant updated successfully") 
-            
+
+            return Retun_Response.success_response(
+                data=jsonable_encoder(tenant_dict),
+                message="Tenant updated successfully"
+            )
+
         except Exception as e:
-            # Log any errors that occur during the process
             logger.logging_error(f"Error updating tenant: {str(e)}")
-           
+            return Retun_Response.error_response("Internal server error")
+    
 
     @staticmethod
     def delete(tenant_id: int,session_username, db: Session):

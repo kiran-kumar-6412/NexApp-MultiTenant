@@ -8,13 +8,14 @@ from sqlalchemy.orm import Session
 import json
 from fastapi.encoders import jsonable_encoder
 from datetime import datetime
+from fastapi import Response
 
 
 def user_create(user,session_user,db):
     try:
         user_data = user.dict()
 
-        # Check username/email uniqueness
+        # Check username uniqueness
         verify = UserRepository.check_username(user_data["Username"], db)
         if verify["username_exists"]:
             return Retun_Response.error_response("Username already taken")
@@ -24,7 +25,7 @@ def user_create(user,session_user,db):
         user_data["Password"] = hash_password(user_data["Password"])
         user_data["CreatedBy"] = UserRepository.get_user_id_by_username(session_user,db)
         user_data["CreatedOn"]=datetime.utcnow()
-
+       
         # Create user
         created_user = UserRepository.create_user(user_data, db)
 
@@ -43,7 +44,7 @@ def user_create(user,session_user,db):
         logger.logging_error(f"User Create Error {str(e)}")
         raise HTTPException(status_code=500, detail=f"Internal Server Error{str(e)}")
     
-from fastapi import Response
+
 def login(user,response:Response,db):
     try:
         username = user.Username
@@ -60,8 +61,10 @@ def login(user,response:Response,db):
             return Retun_Response.error_response("User is not active")
         
         access_token = create_token({"sub": user_record.Username})
-        
-        response.set_cookie(
+
+        res=Retun_Response.success_response(data={"access_token": access_token,
+                "token_type": "bearer"},message="Login successful")
+        res.set_cookie(
             key="access_token",
             value=access_token,
             httponly=True,
@@ -69,8 +72,7 @@ def login(user,response:Response,db):
             samesite="strict"
         )
 
-        return Retun_Response.success_response(data={"access_token": access_token,
-                "token_type": "bearer"},message="Login successful")
+        return res 
 
 
     except Exception as e:
@@ -123,6 +125,10 @@ def update_user(id, schema_user, session_username, db):
         )
 
     try:
+        # Check username uniqueness
+        verify = UserRepository.check_username(schema_user.Username, db)
+        if verify["username_exists"]:
+            return Retun_Response.error_response("Username already taken")
         user = UserRepository.update_user(id, schema_user, session_username, db)
 
         if user is None:

@@ -3,7 +3,7 @@ from typing import Optional
 from datetime import datetime
 
 class Setup_User(BaseModel):
-    IsDeleted: bool = False
+    # IsDeleted: bool = False
     Username: str
     Password: str
     CreatedBy: Optional[int] = None

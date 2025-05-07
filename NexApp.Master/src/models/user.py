@@ -14,4 +14,4 @@ class SetupUser(Base):
     UpdatedBy = Column(Integer)
     UpdatedOn = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
     class Config:
-        orm_mode = True
+        from_attributes = True
